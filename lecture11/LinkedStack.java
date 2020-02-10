@@ -1,9 +1,9 @@
 public class LinkedStack<T> implements Stack<T> {
 
-    private static class Elem<T> {
-        private T value;
-        private Elem<T> next;
-        private Elem(T value, Elem<T> next) {
+    private static class Elem<E> {
+        private E value;
+        private Elem<E> next;
+        private Elem(E value, Elem<E> next) {
             this.value = value;
             this.next = next;
 		} 

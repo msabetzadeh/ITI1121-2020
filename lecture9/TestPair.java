@@ -4,8 +4,6 @@ public class TestPair {
 		
 		p = new Pair<String, Integer>( "ITI", Integer.valueOf(1121));
 
-		//System.out.println(p.getSecond());
-
 		p.setFirst( "session" );
 
 		p.setSecond( 12345 );
